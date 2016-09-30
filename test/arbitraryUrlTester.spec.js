@@ -24,10 +24,10 @@ describe("Some tests I've done for selectors and urls", function () {
 	it("npm course at PluralSight", function (done) {
 		co(function *() {
 			let oneReview = {
-				url: "http://app.pluralsight.com/author/marcus-hammarberg",
-				selector: "input[name='score']",
+				url: "https://app.pluralsight.com/library/courses/npm-build-tool-introduction/table-of-contents",
+				selector: ".rating__raters-count",
 				prefix: "Introduction to npm as a Build Tool:",
-				suffix: "points"
+				suffix: "ratings"
 			};
 
 			let result = yield reviewFetcher.getReviewData(oneReview);

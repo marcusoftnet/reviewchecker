@@ -7,10 +7,10 @@
 			"suffix": ""
 		},
 		{
-			"url": "http://app.pluralsight.com/author/marcus-hammarberg",
-			"selector": "",
-			"prefix": "Introduction to npm as a Build Tool:",
-			"suffix": "points"
+			"url": "https://www.goodreads.com/book/show/17789383-kanban-in-action",
+			"selector": ".average",
+			"prefix": "Kanban In Action on GoodReads:",
+			"suffix": " points"
 		}
 	]
 }
