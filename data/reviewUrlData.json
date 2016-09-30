@@ -2,9 +2,9 @@
 	"reviewUrls" : [
 		{
 			"url": "https://www.amazon.com/Kanban-Action-Marcus-Hammarberg/dp/1617291056/",
-			"selector": "",
+			"selector": ".arp-rating-out-of-text",
 			"prefix": "Kanban In Action on Amazon:",
-			"suffix": "stars"
+			"suffix": ""
 		},
 		{
 			"url": "http://app.pluralsight.com/author/marcus-hammarberg",
