@@ -7,15 +7,15 @@
 			"suffix": ""
 		},
 		{
+			"url": "https://www.amazon.co.jp/%E3%82%AB%E3%83%B3%E3%83%90%E3%83%B3%E4%BB%95%E4%BA%8B%E8%A1%93-Marcus-Hammarberg/dp/487311764X/",
+			"selector": "#avgRating > span",
+			"prefix": "Japanese Kanban In Action on Amazon:",
+			"suffix": ""
+		},
+		{
 			"url": "https://www.goodreads.com/book/show/17789383-kanban-in-action",
 			"selector": ".average",
 			"prefix": "Kanban In Action on GoodReads:",
-			"suffix": "points"
-		},
-		{
-			"url": "http://app.pluralsight.com/author/marcus-hammarberg",
-			"selector": "body > div.ng-scope > div:nth-child(2) > section.push-down > div > div > div:nth-child(3) > div > div.columns.large-12 > div:nth-child(2) > div.large-2.columns > span > input[type='hidden']",
-			"prefix": "NPM course on Pluralsight:",
 			"suffix": "points"
 		}
 		,{
