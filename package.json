@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "claudia:create": "claudia create --region us-east-1 --api-module index --timeout 120",
-    "claudia:deploy": "claudia deploy",
+    "claudia:deploy": "claudia update",
     "claudia:test": "claudia test-lambda",
     "test": "mocha -u bdd -R spec -b --timeout 5000"
   },

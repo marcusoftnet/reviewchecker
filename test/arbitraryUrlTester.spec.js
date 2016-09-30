@@ -1,3 +1,4 @@
+'use strict';
 const reviewFetcher = require('../lib/reviewFetcher.js');
 const should = require("should");
 const co = require("co");

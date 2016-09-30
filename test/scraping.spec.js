@@ -1,6 +1,6 @@
+'use strict';
 const scraper = require('../lib/scraper.js');
 const should = require("should");
-
 
 describe("Scraping of URL", function () {
 	it("has a scrapeUrl method", function (done) {

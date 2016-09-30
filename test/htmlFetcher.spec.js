@@ -1,3 +1,4 @@
+'use strict';
 const htmlFetcher = require('../lib/htmlFetcher.js');
 const should = require("should");
 const co = require('co');
