@@ -39,7 +39,7 @@ describe("Some tests I've done for selectors and urls", function () {
 
 	it("SpecFlow.Assists.Dynamic on NuGet", function (done) {
 		testReviewData.url = "https://www.nuget.org/packages/SpecFlow.Assist.Dynamic/";
-		testReviewData.selector = "#stats > p.stat-number";
+		testReviewData.selector = "#stats > div:nth-child(1) > p.stat-number";
 		testOneReview(testReviewData, done);
 	});
 

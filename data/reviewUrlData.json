@@ -15,8 +15,14 @@
 		{
 			"url": "http://app.pluralsight.com/author/marcus-hammarberg",
 			"selector": "body > div.ng-scope > div:nth-child(2) > section.push-down > div > div > div:nth-child(3) > div > div.columns.large-12 > div:nth-child(2) > div.large-2.columns > span > input[type='hidden']",
-			"prefix": "Aaaa:",
+			"prefix": "NPM course on Pluralsight:",
 			"suffix": " points"
 		}
+		,{
+		 	"url": "https://www.nuget.org/packages/SpecFlow.Assist.Dynamic/",
+		 	"selector": "#stats > div:nth-child(1) > p.stat-number",
+		 	"prefix": "SpecFlow.Assist.Dynamic on NuGet:",
+		 	"suffix": " downloads"
+		 }
 	]
 }
