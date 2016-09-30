@@ -4,7 +4,10 @@
   "description": "Polls website for data defined by a selector and presents the result",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "claudia:create": "claudia create --region us-east-1 --api-module index",
+    "claudia:deploy": "claudia deploy",
+    "claudia:test": "claudia test-lambda",
+    "test": "mocha -u bdd -R spec -b"
   },
   "repository": {
     "type": "git",
@@ -20,5 +23,16 @@
   "bugs": {
     "url": "https://github.com/marcusoftnet/reviewchecker/issues"
   },
-  "homepage": "https://github.com/marcusoftnet/reviewchecker#readme"
+  "homepage": "https://github.com/marcusoftnet/reviewchecker#readme",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "claudia-api-builder": "^2.0.0",
+    "co": "^4.6.0",
+    "co-each": "^0.1.0",
+    "co-request": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.1.0",
+    "should": "^11.1.0"
+  }
 }

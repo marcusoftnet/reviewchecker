@@ -1,0 +1,16 @@
+{
+	"reviewUrls" : [
+		{
+			"url": "https://www.amazon.com/Kanban-Action-Marcus-Hammarberg/dp/1617291056/",
+			"selector": "",
+			"prefix": "Kanban In Action on Amazon:",
+			"suffix": "stars"
+		},
+		{
+			"url": "http://app.pluralsight.com/author/marcus-hammarberg",
+			"selector": "",
+			"prefix": "Introduction to npm as a Build Tool:",
+			"suffix": "points"
+		}
+	]
+}
