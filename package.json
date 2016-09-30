@@ -7,7 +7,7 @@
     "claudia:create": "claudia create --region us-east-1 --api-module index",
     "claudia:deploy": "claudia deploy",
     "claudia:test": "claudia test-lambda",
-    "test": "mocha -u bdd -R spec -b"
+    "test": "mocha -u bdd -R spec -b --timeout 5000"
   },
   "repository": {
     "type": "git",

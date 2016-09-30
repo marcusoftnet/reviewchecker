@@ -31,4 +31,28 @@ describe("Scraping of URL", function () {
 		result.should.equal('my value');
 		done();
 	});
+
+	it("tries value if text is empty", function (done) {
+		const html = `<html>
+			<body>
+				<input id='myId' value='4.6' />
+			</body>
+		</html>`;
+
+		let result = scraper.scrapeUrl(html, '#myId');
+		result.should.equal('4.6');
+		done();
+	});
+
+	it("finds an input by name", function (done) {
+		const html = `<html>
+			<body>
+				<input name='myName' value='4.6' />
+			</body>
+		</html>`;
+
+		let result = scraper.scrapeUrl(html, 'input[name="myName"]');
+		result.should.equal('4.6');
+		done();
+	});
 });
