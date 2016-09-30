@@ -1,0 +1,24 @@
+{
+  "name": "reviewchecker",
+  "version": "1.0.0",
+  "description": "Polls website for data defined by a selector and presents the result",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcusoftnet/reviewchecker.git"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "claudia"
+  ],
+  "author": "Marcus Hammarberg @marcusoftnet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcusoftnet/reviewchecker/issues"
+  },
+  "homepage": "https://github.com/marcusoftnet/reviewchecker#readme"
+}
