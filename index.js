@@ -11,10 +11,11 @@ api.get('/', function () {
 	});
 });
 
-api.post('/', function (request) {
-	  return co(function *() {
-			let results = yield reviewFetcher.getReviewData(request.reviewKey);
-			return results;
+api.get('/{key}', function (request) {
+	return co(function *() {
+		let key = request.pathParams.key;
+		let results = yield reviewFetcher.getReviewData(key);
+		return results;
   });
 });
 
