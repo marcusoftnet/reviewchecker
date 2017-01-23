@@ -5,12 +5,13 @@ Polls website for data defined by a selector and presents the result
 
 # Stuff to do
 ## Backlog
-1. Inital front-end using riot
 1. Good looking front end with bootstrap
 1. Allow for more than one selector per page
 
-## Doing
-* Don't pass URL but keys that look up data
+## Doing (WIP = 1)
+* Inital front-end using riot.js
 
 ## Done
+* Inital front-end using backend
+* Don't pass URL but keys that look up data
 * Inital version up

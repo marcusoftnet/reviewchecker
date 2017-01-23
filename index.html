@@ -1,0 +1,31 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Ego Scraper - collecting Marcus-stuff from the web</title>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+  <script>
+    var apiUrl = "https://j0f1kw9je5.execute-api.us-east-1.amazonaws.com/latest/";
+
+    $(document).ready(function() {
+      getData("KanbanGoodRead");
+      getData("SpecFlowAssistDynamic");
+    });
+
+    function getData(key){
+      var url = apiUrl + key;
+      console.log("Getting: " + url);
+      $.get(url, function( data ) {
+        console.log(data);
+        $("." + key).html(data);
+      });
+    }
+  </script>
+</head>
+<body>
+  <h1>Ego Scraper - collecting Marcus-stuff from the web</h1>
+  
+  <div class="KanbanGoodRead"></div>
+  <div class="SpecFlowAssistDynamic"></div>
+</body>
+</html>
