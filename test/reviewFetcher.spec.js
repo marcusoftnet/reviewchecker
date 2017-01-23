@@ -22,41 +22,17 @@ describe("Getting reviews", function () {
 
 	it("get review from one url", function (done) {
 		co(function *() {
-			let oneReview = {
-				url : 'http://www.github.com',
-				selector: '.jumbotron-title',
-				prefix: 'A',
-				suffix: 'B'
-			};
-
-			let result = yield reviewFetcher.getReviewData(oneReview);
+			let result = yield reviewFetcher.getReviewData("KanbanGoodRead");
 			result.should.not.be.empty;
-			result.length.should.be.above(15);
+			result.length.should.be.above(2);
 
 		}).then(done, done);
 	});
 
 	it("get reviews from two urls", function (done) {
 		co(function *() {
-			let oneReview = [
-				{
-					url : 'http://www.github.com',
-					selector: '.jumbotron-title',
-					prefix: 'A',
-					suffix: 'B'
-				},
-				{
-					url : 'http://www.github.com',
-					selector: '.jumbotron-title',
-					prefix: 'A',
-					suffix: 'B'
-				}
-			];
-
-			let result = yield reviewFetcher.getAllReviews(oneReview);
-			result.length.should.equal(2);
-			result[0].length.should.be.above(15);
-			result[1].length.should.be.above(15);
+			let result = yield reviewFetcher.getAllReviews();
+			result.length.should.equal(4);
 		}).then(done, done);
 	});
 });
