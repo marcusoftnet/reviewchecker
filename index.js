@@ -12,4 +12,18 @@ api.get('/', function () {
 	});
 });
 
+api.post('/', function (request) {
+	var reviewData = {
+		url : request.body.url,
+  	selector : request.body.selector,
+  	suffix : '',
+  	prefix : ''
+	};
+
+  return co(function *() {
+  	let results = yield reviewFetcher.getReviewData(reviewData);
+  	return results;
+  });
+});
+
 module.exports = api;
