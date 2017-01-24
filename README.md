@@ -5,11 +5,12 @@ Polls website for data defined by a selector and presents the result
 
 # Stuff to do
 ## Backlog
-1. Good looking front end with bootstrap
+* Serving pages from aws
+1. Inital front-end using riot.js
 1. Allow for more than one selector per page
 
 ## Doing (WIP = 1)
-* Inital front-end using riot.js
+1. Good looking front end with bootstrap
 
 ## Done
 * Inital front-end using backend
