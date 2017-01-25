@@ -20,18 +20,29 @@ describe("Getting reviews", function () {
 		done();
 	});
 
-	it("get review from one url", function (done) {
-		co(function *() {
-			let result = yield reviewFetcher.getReviewData("KanbanGoodRead");
-			result.should.not.be.empty;
-			result.length.should.be.above(2);
-
-		}).then(done, done);
-	});
-
 	it("get review keys", function (done) {
 			let result = reviewFetcher.getReviewKeys();
 			result.length.should.be.above(2);
 			done();
+	});
+
+	describe("get review from one url", function (done) {
+		let review = {};
+
+		before(function (done){
+			co(function *() {
+				review = yield reviewFetcher.getReviewData("KanbanGoodRead");
+			}).then(done, done);
+		});
+
+		it("should get the result at all", () => review.should.not.be.empty );
+		it("review has a key", () => review.key.should.not.be.empty );
+		it("review has a heading", () => review.header.should.not.be.empty );
+		it("review has a body", () => review.body.should.not.be.empty );
+		it("review has a link", () => review.link.should.not.be.empty );
+		
+		it("review body for KanbanGoodReads has some nice text", () => {
+			review.body.should.startWith("");
+		});
 	});
 });

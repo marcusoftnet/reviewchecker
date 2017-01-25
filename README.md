@@ -11,5 +11,6 @@ Polls website for data defined by a selector and presents the result
 1. More meta-data for a more dynamic handling
 
 ## Done
+* getReviewKeys rather than all result
 * Don't pass URL but keys that look up data
 * Inital version up

@@ -108,10 +108,6 @@ claudia-api-builder@^2.0.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/claudia-api-builder/-/claudia-api-builder-2.4.0.tgz#fea044ec22e00d6439b8953392c465c35a657f87"
 
-co-each@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/co-each/-/co-each-0.1.0.tgz#27bfb45a36936971454fa11f0cbe48b250854c30"
-
 co-request@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/co-request/-/co-request-1.0.0.tgz#8eb5fb656c2ee1e82e36c4ccfe9376846406b260"
