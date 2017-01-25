@@ -4,25 +4,29 @@
 			"key" : "KanbanAmazon",
 			"header": "Kanban in Action - Amazon.com",
 			"url": "https://www.amazon.com/Kanban-Action-Marcus-Hammarberg/dp/1617291056/",
-			"selector": ".arp-rating-out-of-text"
+			"selector": ".arp-rating-out-of-text",
+			"formatString" : "%d out of 5"			
 		},
 		{
 			"key" : "KanbanAmazonJp",		
 			"header": "Kanban in Action - Amazon.jp",
 			"url": "https://www.amazon.co.jp/%E3%82%AB%E3%83%B3%E3%83%90%E3%83%B3%E4%BB%95%E4%BA%8B%E8%A1%93-Marcus-Hammarberg/dp/487311764X/",
-			"selector": "#avgRating > span"
+			"selector": "#avgRating > span",
+			"formatString" : "%d out of 5"
 		},
 		{
 			"key": "KanbanGoodRead",
 			"header": "Kanban in Action - Good Reads",			
 			"url": "https://www.goodreads.com/book/show/17789383-kanban-in-action",
-			"selector": ".average"
+			"selector": ".average",
+			"formatString" : "%d out of 5"
 		}
 		,{
 			"key" : "SpecFlowAssistDynamic",
 			"header": "SpecFlow.Assist.Dynamic - NuGet",			
 		 	"url": "https://www.nuget.org/packages/SpecFlow.Assist.Dynamic/",
-		 	"selector": "#stats > div:nth-child(1) > p.stat-number"
+		 	"selector": "#stats > div:nth-child(1) > p.stat-number",
+			"formatString" : "%d downloads"			 
 		 }
 	]
 }
