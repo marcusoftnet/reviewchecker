@@ -10,8 +10,8 @@ describe("Getting reviews", function () {
 		done();
 	});
 
-	it("has a util to get all review data", function(done) {
-		should.exists(reviewFetcher.getAllReviews);
+	it("has a util to get review keys", function(done) {
+		should.exists(reviewFetcher.getReviewKeys);
 		done();
 	});
 
@@ -29,10 +29,9 @@ describe("Getting reviews", function () {
 		}).then(done, done);
 	});
 
-	it("get reviews from two urls", function (done) {
-		co(function *() {
-			let result = yield reviewFetcher.getAllReviews();
-			result.length.should.equal(4);
-		}).then(done, done);
+	it("get review keys", function (done) {
+			let result = reviewFetcher.getReviewKeys();
+			result.length.should.be.above(2);
+			done();
 	});
 });

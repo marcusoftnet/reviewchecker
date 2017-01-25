@@ -5,10 +5,7 @@ const api = new ApiBuilder();
 const reviewFetcher = require('./lib/reviewFetcher.js');
 
 api.get('/', function () {
-	return co(function *() {
-		let results = yield reviewFetcher.getAllReviews();
-		return results;
-	});
+	return reviewFetcher.getReviewKeys();
 });
 
 api.get('/{key}', function (request) {
