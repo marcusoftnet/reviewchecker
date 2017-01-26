@@ -9,7 +9,8 @@
     "api:test-one": "curl https://j0f1kw9je5.execute-api.us-east-1.amazonaws.com/latest/KanbanGoodRead",
     "api:test-all": "curl https://j0f1kw9je5.execute-api.us-east-1.amazonaws.com/latest/",
     "api:test": "npm run api:test-one && npm run api:test-all",
-    "test": "mocha -u bdd -R spec -b --timeout 5000"
+    "test": "mocha -u bdd -R spec -b --timeout 5000",
+    "test:watch": "npm t -- -w"
   },
   "repository": {
     "type": "git",
