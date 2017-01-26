@@ -31,9 +31,9 @@
 		 {
 			"key" : "NPMBuildTool",
 			"header": "NPM as a build tool",
-		 	"url": "https://www.pluralsight.com/search?q=hammarberg&categories=course",
-		 	"selector": ".search-result__rating.show-for-xlarge-up",
-			"formatString" : "%s downloads"
+		 	"url": "https://app.pluralsight.com/library/courses/npm-build-tool-introduction/table-of-contents",
+		 	"selector": "div.rating[aria-label]",
+			"formatString" : "%s"
 		 }
 	]
 }

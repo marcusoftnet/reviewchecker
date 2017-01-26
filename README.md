@@ -6,11 +6,12 @@ Polls website for data defined by a selector and presents the result
 # Stuff to do
 ## Backlog
 1. Allow for more than one selector per page
+1. Error handling for missing data
 
 ## Doing (WIP = 1)
-1. More meta-data for a more dynamic handling
 
 ## Done
+1. More meta-data for a more dynamic handling
 * getReviewKeys rather than all result
 * Don't pass URL but keys that look up data
 * Inital version up
