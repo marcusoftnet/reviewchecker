@@ -55,4 +55,29 @@ describe("Scraping of URL", function () {
 		result.should.equal('4.6');
 		done();
 	});
+
+	it("gets the value of an attribute", function (done) {
+		const html = `<html>
+			<body>
+				<div any-attribute='myName' />
+			</body>
+		</html>`;
+
+		let result = scraper.scrapeUrl(html, 'div[any-attribute]');
+		result.should.equal('myName');
+		done();
+	});
+
+	it("gets the value of an attribute when more than one element the first is picked", function (done) {
+		const html = `<html>
+			<body>
+				<div any-attribute='myName' />
+				<div any-attribute='myName2' />
+			</body>
+		</html>`;
+
+		let result = scraper.scrapeUrl(html, 'div[any-attribute]');
+		result.should.equal('myName');
+		done();
+	});
 });

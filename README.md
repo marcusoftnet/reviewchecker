@@ -1,17 +1,18 @@
 # Review Checker
 Polls website for data defined by a selector and presents the result
 
-[Live Url](https://j0f1kw9je5.execute-api.us-east-1.amazonaws.com/latest)
+Back-end of the ego-scratcher application
 
 # Stuff to do
 ## Backlog
-1. Allow for more than one selector per page
+1. Allow for more than one selector per review
 1. Error handling for missing data
 
 ## Doing (WIP = 1)
 
 ## Done
-1. More meta-data for a more dynamic handling
+* Possible to select arbitrary attributes
+* More meta-data for a more dynamic handling
 * getReviewKeys rather than all result
 * Don't pass URL but keys that look up data
-* Inital version up
+* Initial version up
