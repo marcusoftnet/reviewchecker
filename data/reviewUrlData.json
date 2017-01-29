@@ -4,36 +4,60 @@
 			"key" : "KanbanAmazon",
 			"header": "Kanban in Action - Amazon.com",
 			"url": "https://www.amazon.com/Kanban-Action-Marcus-Hammarberg/dp/1617291056/",
-			"selector": ".arp-rating-out-of-text",
-			"formatString" : "%s out of 5"
+			"selectors" : [
+				{ 
+					"selector": ".arp-rating-out-of-text",
+					"formatString" : "%s out of 5"
+				}
+			]
 		},
 		{
 			"key" : "KanbanAmazonJp",
 			"header": "Kanban in Action - Amazon.jp",
 			"url": "https://www.amazon.co.jp/%E3%82%AB%E3%83%B3%E3%83%90%E3%83%B3%E4%BB%95%E4%BA%8B%E8%A1%93-Marcus-Hammarberg/dp/487311764X/",
-			"selector": "#avgRating > span",
-			"formatString" : "%s out of 5"
+			"selectors" : [
+				{
+					"selector": "#avgRating > span",
+					"formatString" : "%s out of 5"
+				}
+			]
 		},
 		{
 			"key": "KanbanGoodRead",
 			"header": "Kanban in Action - Good Reads",
 			"url": "https://www.goodreads.com/book/show/17789383-kanban-in-action",
-			"selector": ".average",
-			"formatString" : "%s out of 5"
-		}
-		,{
+			"selectors" : [
+				{
+					"selector": ".average",
+					"formatString" : "%s out of 5"
+				},
+				{
+					"selector": "span.value-title",
+					"formatString" : "%s"
+				}
+			]
+		},
+		{
 			"key" : "SpecFlowAssistDynamic",
 			"header": "SpecFlow.Assist.Dynamic - NuGet",
 		 	"url": "https://www.nuget.org/packages/SpecFlow.Assist.Dynamic/",
-		 	"selector": "#stats > div:nth-child(1) > p.stat-number",
-			"formatString" : "%s downloads"
+		 	"selectors" : [
+				{
+					"selector": "#stats > div:nth-child(1) > p.stat-number",
+					"formatString" : "%s downloads"
+				}
+			 ]
 		 },
 		 {
 			"key" : "NPMBuildTool",
 			"header": "NPM as a build tool",
 		 	"url": "https://app.pluralsight.com/library/courses/npm-build-tool-introduction/table-of-contents",
-		 	"selector": "div.rating[aria-label]",
-			"formatString" : "%s"
+		 	"selectors" : [
+				{
+					"selector": "div.rating[aria-label]",
+					"formatString" : "%s"
+				}
+			 ]
 		 }
 	]
 }

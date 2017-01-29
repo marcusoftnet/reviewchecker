@@ -39,10 +39,18 @@ describe("Getting reviews", function () {
 		it("should get the result at all", () => review.should.not.be.empty );
 		it("review has a key", () => review.key.should.not.be.empty );
 		it("review has a heading", () => review.header.should.not.be.empty );
-		it("review has a body", () => review.body.should.not.be.empty );
 		it("review has a link", () => review.link.should.not.be.empty );
-		it("review body for KanbanGoodReads has some nice text", () => {
-			review.body.should.endWith(" out of 5");
+		it("review has a results array", () => {
+			review.results.should.not.be.empty;
+		});
+		it("review results array has at least one result", () => {
+			review.results.length.should.be.above(0);
+		});
+		it("review results array for KanbanGoodReads has some nice text in the first element", () => {
+			review.results[0].should.endWith(" out of 5");
+		});
+		it("review results array for KanbanGoodReads contains two elements", () => {
+			review.results.length.should.be.above(1);
 		});
 	});
 });
