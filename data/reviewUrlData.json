@@ -37,9 +37,8 @@
 				},
 				{
 					"selector": "#bookMeta > a:nth-child(10) > span > span",
-					"formatString" : "%s"
-				}
-				
+					"formatString" : "%s written reviews"
+				}				
 			]
 		},
 		{
