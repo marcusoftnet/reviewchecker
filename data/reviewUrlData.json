@@ -29,12 +29,17 @@
 			"selectors" : [
 				{
 					"selector": ".average",
-					"formatString" : "%s out of 5"
+					"formatString" : "Rating: %s out of 5"
 				},
 				{
 					"selector": "span.value-title",
 					"formatString" : "%s"
+				},
+				{
+					"selector": "#bookMeta > a:nth-child(10) > span > span",
+					"formatString" : "%s"
 				}
+				
 			]
 		},
 		{
