@@ -26,7 +26,7 @@ describe("Getting reviews", function () {
 			done();
 	});
 
-	describe("get review from one url", function (done) {
+	describe("get review from a key", function (done) {
 		this.timeout(20000);
 		let review = {};
 
@@ -42,7 +42,7 @@ describe("Getting reviews", function () {
 		it("review has a body", () => review.body.should.not.be.empty );
 		it("review has a link", () => review.link.should.not.be.empty );
 		it("review body for KanbanGoodReads has some nice text", () => {
-			review.body.should.startWith("");
+			review.body.should.endWith(" out of 5");
 		});
 	});
 });
