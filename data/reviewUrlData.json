@@ -101,6 +101,14 @@
 				{ "selector": "div.watch-view-count",
 					"formatString" : "%s" }
 			 ]
+		},
+		{ "key" : "BungsuOreDev16",
+			"header": "Bungsu Story @ OreDev 16",
+		 	"url": "https://vimeo.com/191275724",
+		 	"selectors" : [
+				{ "selector": "div.clip_details__stats.iris_span-7 > div > span",
+					"formatString" : "%s views" }
+			 ]
 		}
 	]
 }
