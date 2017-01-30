@@ -77,7 +77,7 @@
 					"formatString" : "%s"
 				},
 				{
-					"selector": "span.yt-uix-button-content",
+					"selector": "span.yt-uix-button-content > button > span",
 					"formatString" : "%s likes"
 				}
 			 ]
