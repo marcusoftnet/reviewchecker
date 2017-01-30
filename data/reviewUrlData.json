@@ -75,10 +75,28 @@
 				{
 					"selector": "div.watch-view-count",
 					"formatString" : "%s"
-				},
+				}
+			 ]
+		 },
+		 {
+			"key" : "KoaIntroYield",
+			"header": "Koa Intro: Explaining yield and generators",
+		 	"url": "https://www.youtube.com/watch?v=egLUa6urd6I",
+		 	"selectors" : [
 				{
-					"selector": "#watch8-sentiment-actions > span > span:nth-child(1) ",
-					"formatString" : "%s likes"
+					"selector": "div.watch-view-count",
+					"formatString" : "%s"
+				}
+			 ]
+		 },
+		 {
+			"key" : "KoaIntroCRUDKoaJs",
+			"header": "CRUD HTTP API using Koa Js",
+		 	"url": "https://www.youtube.com/watch?v=aTTjednotGQ",
+		 	"selectors" : [
+				{
+					"selector": "div.watch-view-count",
+					"formatString" : "%s"
 				}
 			 ]
 		 }
