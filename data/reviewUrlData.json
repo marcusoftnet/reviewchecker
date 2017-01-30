@@ -66,6 +66,21 @@
 					"formatString" : "%s number of views"
 				}
 			 ]
+		 },
+		 {
+			"key" : "YouTubeKanbanNetEnd",
+			"header": "Kanban - At Net Entertainment",
+		 	"url": "https://www.youtube.com/watch?v=jKosUhClKbo",
+		 	"selectors" : [
+				{
+					"selector": "div.watch-view-count",
+					"formatString" : "%s"
+				},
+				{
+					"selector": "span.yt-uix-button-content",
+					"formatString" : "%s likes"
+				}
+			 ]
 		 }
 	]
 }
