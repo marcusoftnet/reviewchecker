@@ -1,74 +1,50 @@
 {
 	"reviews" : [
-		{
-			"key" : "KanbanAmazon",
+		{ "key" : "KanbanAmazon",
 			"header": "Kanban in Action - Amazon.com",
 			"url": "https://www.amazon.com/Kanban-Action-Marcus-Hammarberg/product-reviews/1617291056/",
 			"selectors" : [
-				{ 
-					"selector": ".arp-rating-out-of-text",
-					"formatString" : "%s stars out of 5"
-				},
-				{ 
-					"selector": "span.totalReviewCount",
-					"formatString" : "%s reviews"
-				}
-			]
+				{ "selector": ".arp-rating-out-of-text",
+					"formatString" : "%s stars out of 5" },
+				{ "selector": "span.totalReviewCount",
+					"formatString" : "%s reviews" }]
 		},
-		{
-			"key" : "KanbanAmazonJp",
+		{ "key" : "KanbanAmazonJp",
 			"header": "Kanban in Action - Amazon.jp",
 			"url": "https://www.amazon.co.jp/%E3%82%AB%E3%83%B3%E3%83%90%E3%83%B3%E4%BB%95%E4%BA%8B%E8%A1%93-Marcus-Hammarberg/dp/487311764X/",
 			"selectors" : [
-				{
-					"selector": "#avgRating > span",
-					"formatString" : "%s out of 5"
-				}
-			]
+				{ "selector": "#avgRating > span",
+					"formatString" : "%s out of 5" }]
 		},
-		{
-			"key": "KanbanGoodRead",
+		{ "key": "KanbanGoodRead",
 			"header": "Kanban in Action - Good Reads",
 			"url": "https://www.goodreads.com/book/show/17789383-kanban-in-action",
 			"selectors" : [
-				{
-					"selector": ".average",
-					"formatString" : "Rating: %s out of 5"
-				},
-				{
-					"selector": "span.value-title",
-					"formatString" : "%s"
-				},
-				{
-					"selector": "#bookMeta > a:nth-child(10) > span > span",
-					"formatString" : "%s written reviews"
-				}				
+				{ "selector": ".average",
+					"formatString" : "Rating: %s out of 5" },
+				{ "selector": "span.value-title",
+					"formatString" : "%s" },
+				{ "selector": "#bookMeta > a:nth-child(10) > span > span",
+					"formatString" : "%s written reviews"	}				
 			]
 		},
-		{
-			"key" : "SpecFlowAssistDynamic",
+		{ "key" : "SpecFlowAssistDynamic",
 			"header": "SpecFlow.Assist.Dynamic - NuGet",
 		 	"url": "https://www.nuget.org/packages/SpecFlow.Assist.Dynamic/",
 		 	"selectors" : [
-				{
-					"selector": "#stats > div:nth-child(1) > p.stat-number",
-					"formatString" : "%s downloads"
-				}
+				{ "selector": "#stats > div:nth-child(1) > p.stat-number",
+					"formatString" : "%s downloads" }
 			 ]
-		 },
-		 {
-			"key" : "NPMBuildTool",
+		},
+		{ "key" : "NPMBuildTool",
 			"header": "NPM as a build tool",
 		 	"url": "https://app.pluralsight.com/library/courses/npm-build-tool-introduction/table-of-contents",
 		 	"selectors" : [
-				{
-					"selector": "div.course-info__row--right.course-info__row--rating > span",
-					"formatString" : "%s number of views"
-				}
+				{ "selector": "div.course-info__row--right.course-info__row--rating > span",
+					"formatString" : "%s number of views" }
 			 ]
-		 },
-		 {
-			"key" : "YouTubeKanbanNetEnd",
+		},
+		{ "key" : "YouTubeKanbanNetEnd",
 			"header": "Kanban - At Net Entertainment",
 		 	"url": "https://www.youtube.com/watch?v=jKosUhClKbo",
 		 	"selectors" : [
@@ -77,28 +53,54 @@
 					"formatString" : "%s"
 				}
 			 ]
-		 },
-		 {
-			"key" : "KoaIntroYield",
+		},
+		{ "key" : "KoaIntroYield",
 			"header": "Koa Intro: Explaining yield and generators",
 		 	"url": "https://www.youtube.com/watch?v=egLUa6urd6I",
 		 	"selectors" : [
-				{
-					"selector": "div.watch-view-count",
-					"formatString" : "%s"
-				}
+				{	"selector": "div.watch-view-count",
+					"formatString" : "%s"	}
 			 ]
-		 },
-		 {
-			"key" : "KoaIntroCRUDKoaJs",
+		},
+		{ "key" : "KoaIntroCRUDKoaJs",
 			"header": "CRUD HTTP API using Koa Js",
 		 	"url": "https://www.youtube.com/watch?v=aTTjednotGQ",
 		 	"selectors" : [
-				{
-					"selector": "div.watch-view-count",
-					"formatString" : "%s"
-				}
+				{ "selector": "div.watch-view-count",
+					"formatString" : "%s" }
 			 ]
-		 }
+		},
+		{ "key" : "KanbanNetEndAptitud",
+			"header": "Kanban - a practical introduction",
+		 	"url": "https://www.youtube.com/watch?v=hLuSAuVIpI8",
+		 	"selectors" : [
+				{ "selector": "div.watch-view-count",
+					"formatString" : "%s" }
+			 ]
+		},
+		{ "key" : "LKNA16",
+			"header": "LKNA16 - Bungsu-talk",
+		 	"url": "https://www.youtube.com/watch?v=nEKuY9P53Q4",
+		 	"selectors" : [
+				{ "selector": "div.watch-view-count",
+					"formatString" : "%s" }
+			 ]
+		},
+		{ "key" : "SpecByExAptitud",
+			"header": "Specification by example",
+		 	"url": "https://www.youtube.com/watch?v=OLdCV062lGs",
+		 	"selectors" : [
+				{ "selector": "div.watch-view-count",
+					"formatString" : "%s" }
+			 ]
+		},
+		{ "key" : "SpecFlowAptitud",
+			"header": "Specflow, a whirlwind tour",
+		 	"url": "https://www.youtube.com/watch?v=0j7RaGqVIyk",
+		 	"selectors" : [
+				{ "selector": "div.watch-view-count",
+					"formatString" : "%s" }
+			 ]
+		}
 	]
 }
