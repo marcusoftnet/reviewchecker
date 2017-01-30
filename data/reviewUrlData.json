@@ -3,11 +3,15 @@
 		{
 			"key" : "KanbanAmazon",
 			"header": "Kanban in Action - Amazon.com",
-			"url": "https://www.amazon.com/Kanban-Action-Marcus-Hammarberg/dp/1617291056/",
+			"url": "https://www.amazon.com/Kanban-Action-Marcus-Hammarberg/product-reviews/1617291056/",
 			"selectors" : [
 				{ 
 					"selector": ".arp-rating-out-of-text",
-					"formatString" : "%s out of 5"
+					"formatString" : "%s stars out of 5"
+				},
+				{ 
+					"selector": "span.totalReviewCount",
+					"formatString" : "%s reviews"
 				}
 			]
 		},
@@ -58,8 +62,8 @@
 		 	"url": "https://app.pluralsight.com/library/courses/npm-build-tool-introduction/table-of-contents",
 		 	"selectors" : [
 				{
-					"selector": "div.rating[aria-label]",
-					"formatString" : "%s"
+					"selector": "div.course-info__row--right.course-info__row--rating > span",
+					"formatString" : "%s number of views"
 				}
 			 ]
 		 }

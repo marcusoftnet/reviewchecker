@@ -53,4 +53,16 @@ describe("Getting reviews", function () {
 			review.results.length.should.be.above(1);
 		});
 	});
+
+	describe.skip("to test a key", function (done) {
+		this.timeout(20000);
+
+		it("gets the data for the key", function (done){
+			co(function *() {
+				let review = yield reviewFetcher.getReviewData("KanbanAmazon");
+				console.log(review);
+				review.should.not.be.null;
+			}).then(done, done);
+		});
+	});
 });
