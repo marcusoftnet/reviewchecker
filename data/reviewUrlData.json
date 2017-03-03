@@ -41,7 +41,7 @@
 		 	"url": "https://app.pluralsight.com/library/courses/npm-build-tool-introduction/table-of-contents",
 		 	"selectors" : [
 				{ "selector": "div.course-info__row--right.course-info__row--rating > span",
-					"formatString" : "%s number of views" }
+					"formatString" : "%s ratings" }
 			 ]
 		},
 		{ "key" : "YouTubeKanbanNetEnd",
