@@ -45,7 +45,7 @@
 			 ]
 		},
 		{ "key" : "YouTubeKanbanNetEnd",
-			"header": "Kanban - At Net Entertainment",
+			"header": "YouTube - Kanban  Net Ent",
 		 	"url": "https://www.youtube.com/watch?v=jKosUhClKbo",
 		 	"selectors" : [
 				{
@@ -55,7 +55,7 @@
 			 ]
 		},
 		{ "key" : "KoaIntroYield",
-			"header": "Koa Intro: Explaining yield and generators",
+			"header": "YouTube - Koa Intro: Explaining yield and generators",
 		 	"url": "https://www.youtube.com/watch?v=egLUa6urd6I",
 		 	"selectors" : [
 				{	"selector": "div.watch-view-count",
@@ -63,7 +63,7 @@
 			 ]
 		},
 		{ "key" : "KoaIntroCRUDKoaJs",
-			"header": "CRUD HTTP API using Koa Js",
+			"header": "YouTube - CRUD HTTP API using Koa Js",
 		 	"url": "https://www.youtube.com/watch?v=aTTjednotGQ",
 		 	"selectors" : [
 				{ "selector": "div.watch-view-count",
@@ -71,7 +71,7 @@
 			 ]
 		},
 		{ "key" : "KanbanNetEndAptitud",
-			"header": "Kanban - a practical introduction",
+			"header": "YouTube - Kanban - a practical introduction",
 		 	"url": "https://www.youtube.com/watch?v=hLuSAuVIpI8",
 		 	"selectors" : [
 				{ "selector": "div.watch-view-count",
@@ -79,7 +79,7 @@
 			 ]
 		},
 		{ "key" : "LKNA16",
-			"header": "LKNA16 - Bungsu-talk",
+			"header": "YouTube - LKNA16 - Bungsu-talk",
 		 	"url": "https://www.youtube.com/watch?v=nEKuY9P53Q4",
 		 	"selectors" : [
 				{ "selector": "div.watch-view-count",
@@ -87,7 +87,7 @@
 			 ]
 		},
 		{ "key" : "SpecByExAptitud",
-			"header": "Specification by example",
+			"header": "YouTube - Specification by example",
 		 	"url": "https://www.youtube.com/watch?v=OLdCV062lGs",
 		 	"selectors" : [
 				{ "selector": "div.watch-view-count",
@@ -95,7 +95,7 @@
 			 ]
 		},
 		{ "key" : "SpecFlowAptitud",
-			"header": "Specflow, a whirlwind tour",
+			"header": "YouTube - Specflow, a whirlwind tour",
 		 	"url": "https://www.youtube.com/watch?v=0j7RaGqVIyk",
 		 	"selectors" : [
 				{ "selector": "div.watch-view-count",
