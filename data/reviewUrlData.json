@@ -14,7 +14,7 @@
 			"url": "https://www.amazon.co.jp/%E3%82%AB%E3%83%B3%E3%83%90%E3%83%B3%E4%BB%95%E4%BA%8B%E8%A1%93-Marcus-Hammarberg/dp/487311764X/",
 			"selectors" : [
 				{ "selector": "#avgRating > span",
-					"formatString" : "%s out of 5" }]
+					"formatString" : "%s" }]
 		},
 		{ "key": "KanbanGoodRead",
 			"header": "Kanban in Action - Good Reads",
@@ -25,7 +25,7 @@
 				{ "selector": "span.value-title",
 					"formatString" : "%s" },
 				{ "selector": "#bookMeta > a:nth-child(10) > span > span",
-					"formatString" : "%s written reviews"	}				
+					"formatString" : "%s written reviews"	}
 			]
 		},
 		{ "key" : "SpecFlowAssistDynamic",
