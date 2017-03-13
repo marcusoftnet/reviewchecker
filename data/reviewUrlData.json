@@ -15,7 +15,7 @@
 			"selectors" : [
 				{ "selector": "#avgRating > span",
 					"formatString" : "%s" },
-				{ "selector": "a.product-reviews-link",
+				{ "selector": "#acrCustomerReviewText",
 					"formatString" : "%s" }
 				]
 		},
