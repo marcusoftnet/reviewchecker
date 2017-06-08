@@ -104,6 +104,14 @@
 				{ "selector": "div.watch-view-count",
 					"formatString" : "%s" }
 			 ]
+		},
+		{ "key" : "20QuickMinsk",
+			"header": "YouTube – 20 Quick Ideas on How to Improve Your Kanban Board",
+		 	"url": "https://www.youtube.com/watch?v=9Vt90gpd8tU",
+		 	"selectors" : [
+				{ "selector": "div.watch-view-count",
+					"formatString" : "%s" }
+			 ]
 		}
 	]
 }
