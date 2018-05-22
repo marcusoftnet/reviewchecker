@@ -112,6 +112,15 @@
 				{ "selector": "div.watch-view-count",
 					"formatString" : "%s" }
 			 ]
+		},
+		{ "key" : "FlowAtSchibstedt",
+			"header": "YouTube – A talk on flow and lean at Schibstedt",
+		 	"url": "https://www.youtube.com/watch?v=wQUttoePxGY",
+		 	"selectors" : [
+				{ "selector": "div.watch-view-count",
+					"formatString" : "%s" }
+			 ]
 		}
+
 	]
 }

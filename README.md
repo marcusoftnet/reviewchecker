@@ -5,7 +5,9 @@ Back-end of the ego-scratcher application
 
 # Stuff to do
 ## Backlog
-1. Error handling for missing data
+1. Update to modern JS - linting
+1. Use async await over generators and co
+1. Move config to Dynamob db
 
 ## Doing (WIP = 1)
 
