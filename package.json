@@ -4,13 +4,14 @@
   "description": "Polls website for data defined by a selector and presents the result",
   "main": "index.js",
   "scripts": {
-    "claudia:create": "claudia create --region us-east-1 --api-module index --timeout 120 --profile claudia",
-    "claudia:deploy": "claudia update --profile claudia",
+    "create": "claudia create --region us-east-1 --api-module index --timeout 120 --profile claudia",
+    "deploy": "claudia update --profile claudia --runtime nodejs8.10",
     "api:test-one": "curl https://j0f1kw9je5.execute-api.us-east-1.amazonaws.com/latest/KanbanGoodRead",
-    "api:test-all": "curl https://j0f1kw9je5.execute-api.us-east-1.amazonaws.com/latest/",
-    "api:test": "npm run api:test-one && npm run api:test-all",
+    "api:test-keys": "curl https://j0f1kw9je5.execute-api.us-east-1.amazonaws.com/latest/",
+    "test:api": "npm run api:test-one && npm run api:test-keys",
     "test": "mocha -u bdd -R spec -b --timeout 5000",
-    "test:watch": "npm t -- -w"
+    "test:watch": "npm t -- -w",
+    "lint" : "standard"
   },
   "repository": {
     "type": "git",
@@ -36,6 +37,7 @@
   "devDependencies": {
     "claudia": "^4.0.0",
     "mocha": "^3.1.0",
-    "should": "^11.1.0"
+    "should": "^11.1.0",
+    "standard": "^11.0.1"
   }
 }
