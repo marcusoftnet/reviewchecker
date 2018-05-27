@@ -32,7 +32,6 @@
   "dependencies": {
     "cheerio": "^0.22.0",
     "claudia-api-builder": "^4.0.1",
-    "co": "^4.6.0",
     "co-request": "^1.0.0"
   },
   "devDependencies": {
