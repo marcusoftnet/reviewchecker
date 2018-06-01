@@ -66,6 +66,16 @@
 				}
 			 ]
 		},
+		{ "key" : "BungsuBrewingAgile",
+			"header": "YouTube - Bungsu at Brewing Agile 2017",
+		 	"url": "https://www.youtube.com/watch?v=5tTy5IMqzDE",
+		 	"selectors" : [
+				{
+					"selector": "div.watch-view-count",
+					"formatString" : "%s"
+				}
+			 ]
+		},
 		{ "key" : "KoaIntroYield",
 			"header": "YouTube - Koa Intro: Explaining yield and generators",
 		 	"url": "https://www.youtube.com/watch?v=egLUa6urd6I",
