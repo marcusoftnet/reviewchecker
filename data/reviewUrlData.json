@@ -1,7 +1,16 @@
 {
 	"reviews" : [
-		{ "key" : "BungsuStory",
-			"header": "Salvation: The Bungsu story - Amazon.com",
+		{ "key" : "BungsuStoryPaperback",
+			"header": "The Bungsu story - Amazon.com (paperback)",
+			"url": "https://www.amazon.com/dp/1719485135/",
+			"selectors" : [
+				{ "selector": ".arp-rating-out-of-text",
+					"formatString" : "%s stars out of 5" },
+				{ "selector": "span.totalReviewCount",
+					"formatString" : "%s reviews" }]
+		},
+		{ "key" : "BungsuStoryKindle",
+			"header": "The Bungsu story - Amazon.com (kindle)",
 			"url": "https://www.amazon.com/dp/B07DDDFPLS/",
 			"selectors" : [
 				{ "selector": ".arp-rating-out-of-text",
