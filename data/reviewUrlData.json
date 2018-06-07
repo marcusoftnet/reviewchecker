@@ -49,6 +49,18 @@
 					"formatString" : "%s written reviews"	}
 			]
 		},
+		{ "key": "BungsuGoodRead",
+			"header": "Bungsu story - Good Reads",
+			"url": "https://www.goodreads.com/book/show/40275527-salvation",
+			"selectors" : [
+				{ "selector": ".average",
+					"formatString" : "Rating: %s out of 5" },
+				{ "selector": "span.value-title",
+					"formatString" : "%s" },
+				{ "selector": "#bookMeta > a:nth-child(10) > span > span",
+					"formatString" : "%s written reviews"	}
+			]
+		},
 		{ "key" : "SpecFlowAssistDynamic",
 			"header": "SpecFlow.Assist.Dynamic - NuGet",
 		 	"url": "https://www.nuget.org/packages/SpecFlow.Assist.Dynamic/",
