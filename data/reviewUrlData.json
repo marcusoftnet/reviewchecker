@@ -44,9 +44,7 @@
 				{ "selector": ".average",
 					"formatString" : "Rating: %s out of 5" },
 				{ "selector": "span.value-title",
-					"formatString" : "%s" },
-				{ "selector": "#bookMeta > a:nth-child(10) > span > span",
-					"formatString" : "%s written reviews"	}
+					"formatString" : "%s ratings" }
 			]
 		},
 		{ "key": "BungsuGoodRead",
@@ -56,9 +54,7 @@
 				{ "selector": ".average",
 					"formatString" : "Rating: %s out of 5" },
 				{ "selector": "span.value-title",
-					"formatString" : "%s" },
-				{ "selector": "#bookMeta > a:nth-child(10) > span > span",
-					"formatString" : "%s written reviews"	}
+					"formatString" : "%s ratings" }
 			]
 		},
 		{ "key" : "SpecFlowAssistDynamic",
