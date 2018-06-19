@@ -11,7 +11,7 @@
 		},
 		{ "key" : "BungsuStoryKindle",
 			"header": "The Bungsu story - Amazon.com (kindle)",
-			"url": "https://www.amazon.com/dp/B07DDDFPLS/",
+			"url": "https://www.amazon.com/Salvation-hospital-Indonesia-reshape-company-ebook/product-reviews/B07DDDFPLS/",
 			"selectors" : [
 				{ "selector": ".arp-rating-out-of-text",
 					"formatString" : "%s stars out of 5" },
