@@ -1,7 +1,7 @@
 {
 	"reviews" : [
 		{ "key" : "BungsuStoryPaperback",
-			"header": "The Bungsu story - Amazon.com (paperback)",
+			"header": "The Bungsu story - Amazon.com",
 			"url": "https://www.amazon.com/Salvation-hospital-Indonesia-reshape-company/product-reviews/1719485135/",
 			"selectors" : [
 				{ "selector": ".arp-rating-out-of-text",
