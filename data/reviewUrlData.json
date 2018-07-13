@@ -9,9 +9,9 @@
 				{ "selector": "span.totalReviewCount",
 					"formatString" : "%s reviews" }]
 		},
-		{ "key" : "BungsuAmazonJp",
-			"header": "Bungsu - Amazon.jp",
-			"url": "https://www.amazon.co.jp/%E3%82%AB%E3%83%B3%E3%83%90%E3%83%B3%E4%BB%95%E4%BA%8B%E8%A1%93-Marcus-Hammarberg/dp/B07DDDFPLS/",
+		{ "key" : "BungsuAmazonUK",
+			"header": "Bungsu - Amazon.co.uk",
+			"url": "https://www.amazon.co.uk/Salvation-hospital-Indonesia-reshape-company-ebook/product-reviews/B07DDDFPLS/",
 			"selectors" : [
 				{ "selector": "#avgRating > span",
 					"formatString" : "%s" },
@@ -22,6 +22,15 @@
 		{ "key" : "KanbanAmazon",
 			"header": "Kanban in Action - Amazon.com",
 			"url": "https://www.amazon.com/Kanban-Action-Marcus-Hammarberg/product-reviews/1617291056/",
+			"selectors" : [
+				{ "selector": ".arp-rating-out-of-text",
+					"formatString" : "%s stars out of 5" },
+				{ "selector": "span.totalReviewCount",
+					"formatString" : "%s reviews" }]
+		},
+		{ "key" : "KanbanAmazonUk",
+			"header": "Kanban in Action - Amazon.co.uk",
+			"url": "https://www.amazon.co.uk/Kanban-Action-Marcus-Hammarberg/product-reviews/1617291056/",
 			"selectors" : [
 				{ "selector": ".arp-rating-out-of-text",
 					"formatString" : "%s stars out of 5" },
