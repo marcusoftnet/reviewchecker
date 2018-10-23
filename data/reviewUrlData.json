@@ -40,8 +40,12 @@
 					"formatString": "Rating: %s out of 5"
 				},
 				{
-					"selector": "span.value-title",
+					"selector": "span.votes",
 					"formatString": "%s ratings"
+				},
+				{
+					"selector": "span.count",
+					"formatString": "%s reviews"
 				}
 			]
 		},
@@ -100,8 +104,12 @@
 					"formatString": "Rating: %s out of 5"
 				},
 				{
-					"selector": "span.value-title",
+					"selector": "span.votes",
 					"formatString": "%s ratings"
+				},
+				{
+					"selector": "span.count",
+					"formatString": "%s reviews"
 				}
 			]
 		},
