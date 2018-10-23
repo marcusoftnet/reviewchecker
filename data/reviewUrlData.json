@@ -11,7 +11,7 @@
 		},
 		{ "key" : "BungsuAmazonUK",
 			"header": "Bungsu - Amazon.co.uk",
-			"url": "https://www.amazon.co.uk/Salvation-hospital-Indonesia-reshape-company-ebook/product-reviews/B07DDDFPLS/",
+			"url": "https://www.amazon.co.uk/Salvation-hospital-Indonesia-reshape-company/product-reviews/1719485135/",
 			"selectors" : [
 				{ "selector": "#avgRating > span",
 					"formatString" : "%s" },
