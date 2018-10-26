@@ -89,8 +89,8 @@
 					"formatString": "%s"
 				},
 				{
-					"selector": "span.acrCustomerReviewText",
-					"formatString": "%s"
+					"selector": "span.totalReviewCount",
+					"formatString": "%s reviews"
 				}
 			]
 		},
