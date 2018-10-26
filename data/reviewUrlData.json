@@ -89,7 +89,7 @@
 					"formatString": "%s"
 				},
 				{
-					"selector": "#acrCustomerReviewText",
+					"selector": "span.acrCustomerReviewText",
 					"formatString": "%s"
 				}
 			]
@@ -159,7 +159,7 @@
 		},
 		{
 			"key": "KoaIntroYield",
-			"header": "YouTube - Koa Intro: Explaining yield and generators",
+			"header": "YouTube - Koa Intro: yield and generators",
 			"url": "https://www.youtube.com/watch?v=egLUa6urd6I",
 			"selectors": [
 				{
@@ -225,7 +225,7 @@
 		},
 		{
 			"key": "20QuickMinsk",
-			"header": "YouTube – 20 Quick Ideas on How to Improve Your Kanban Board",
+			"header": "YouTube – 20 Quick Ideas",
 			"url": "https://www.youtube.com/watch?v=9Vt90gpd8tU",
 			"selectors": [
 				{
