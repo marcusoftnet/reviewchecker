@@ -244,6 +244,28 @@
 					"formatString": "%s"
 				}
 			]
+		},
+		{
+			"key": "15ImpactMapping",
+			"header": "YouTube – 15 minutes on ImpactMapping",
+			"url": "https://www.youtube.com/watch?v=Gk_oV75iSvs",
+			"selectors": [
+				{
+					"selector": "div.watch-view-count",
+					"formatString": "%s"
+				}
+			]
+		},
+		{
+			"key": "DevLin2018",
+			"header": "YouTube – Optimera ditt flöde - men av vaddå? (DevLin2018)",
+			"url": "https://www.youtube.com/watch?v=V-PwrS8KfRE",
+			"selectors": [
+				{
+					"selector": "div.watch-view-count",
+					"formatString": "%s"
+				}
+			]
 		}
 	]
 }
