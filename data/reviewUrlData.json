@@ -10,7 +10,7 @@
 					"formatString": "%s stars out of 5"
 				},
 				{
-					"selector": "span.totalReviewCount",
+					"selector": "[data-hook=total-review-count]",
 					"formatString": "%s reviews"
 				}
 			]
@@ -280,6 +280,17 @@
 		},
 		{
 			"key": "DevLin2018_Bungsu",
+			"header": "DevLin2018 - Marcus Hammarberg - Lean and Kanban to the rescue : Historien om Bungsu-sjukhuset",
+			"url": "https://www.youtube.com/watch?v=bV1Uf3s-8o4",
+			"selectors": [
+				{
+					"selector": "div.watch-view-count",
+					"formatString": "%s"
+				}
+			]
+		},
+		{
+			"key": "DevLin2018_Bungsu2",
 			"header": "DevLin2018 - Marcus Hammarberg - Lean and Kanban to the rescue : Historien om Bungsu-sjukhuset",
 			"url": "https://www.youtube.com/watch?v=bV1Uf3s-8o4",
 			"selectors": [
